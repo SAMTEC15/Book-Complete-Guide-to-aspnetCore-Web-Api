@@ -4,12 +4,15 @@ using Microsoft.IdentityModel.Tokens;
 using MyBook.Application.Implementations;
 using MyBook.Application.Interfaces;
 using MyBook.Common.GlobalException;
+using MyBook.Common.Utilities;
+using MyBook.Domain.Models;
 using MyBook.Persistence;
 using MyBook.Persistence.Repositories;
 using MyBook.Persistence.Repositories.Implementations;
 using MyBook.Persistence.Repositories.Interfaces;
 using Serilog;
 using System.Text;
+using static Org.BouncyCastle.Math.EC.ECCurve;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +26,8 @@ builder.Logging.AddSerilog(logger);
 
 // Add services to the container.
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConn")));
+
+//builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
 
 builder.Services.AddScoped<IBooksRepository, BooksRepository>();
 builder.Services.AddScoped<IBookService, BookService>();
@@ -67,6 +72,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+//Seeding Roles and SuperAdmin
+/*using (var scope = app.Services.CreateScope())
+{
+    var serviceProvider = scope.ServiceProvider;
+    Seeder.SeedRolesAndSuperAdmin(serviceProvider);
+}*/
 
 app.UseHttpsRedirection();
 
