@@ -9,7 +9,7 @@ namespace MyBook.Common.Utilities
         public static void SeedRolesAndSuperAdmin(IServiceProvider serviceProvider)
         {
             var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
-            var managerManager = serviceProvider.GetRequiredService<UserManager<AppUser>>();
+            var managerManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
 
             // Seed roles
             if (!roleManager.RoleExistsAsync("SuperAdmin").Result)

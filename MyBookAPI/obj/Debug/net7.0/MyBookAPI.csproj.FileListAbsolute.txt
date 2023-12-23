@@ -98,3 +98,4 @@ C:\Users\user1\Home\MyBook\MyBookAPI\bin\Debug\net7.0\MimeKit.dll
 C:\Users\user1\Home\MyBook\MyBookAPI\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\user1\Home\MyBook\MyBookAPI\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\user1\Home\MyBook\MyBookAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user1\Home\MyBook\MyBookAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

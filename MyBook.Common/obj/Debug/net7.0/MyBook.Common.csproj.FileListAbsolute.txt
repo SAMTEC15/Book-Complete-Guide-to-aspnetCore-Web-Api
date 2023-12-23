@@ -10,3 +10,6 @@ C:\Users\user1\Home\MyBook\MyBook.Common\obj\Debug\net7.0\refint\MyBook.Common.d
 C:\Users\user1\Home\MyBook\MyBook.Common\obj\Debug\net7.0\MyBook.Common.pdb
 C:\Users\user1\Home\MyBook\MyBook.Common\obj\Debug\net7.0\ref\MyBook.Common.dll
 C:\Users\user1\Home\MyBook\MyBook.Common\obj\Debug\net7.0\MyBook.Common.csproj.AssemblyReference.cache
+C:\Users\user1\Home\MyBook\MyBook.Common\bin\Debug\net7.0\MyBook.Domain.dll
+C:\Users\user1\Home\MyBook\MyBook.Common\bin\Debug\net7.0\MyBook.Domain.pdb
+C:\Users\user1\Home\MyBook\MyBook.Common\obj\Debug\net7.0\MyBook.Common.csproj.CopyComplete
