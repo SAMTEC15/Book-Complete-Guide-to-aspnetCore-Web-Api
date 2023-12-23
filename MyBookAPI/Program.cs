@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using MyBook.Application.Implementations;
 using MyBook.Application.Interfaces;
@@ -65,21 +66,9 @@ builder.Services.AddAuthentication(options =>
         };
     });
 
-/*builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
-{
-    options.TokenValidationParameters = new TokenValidationParameters()
-    {
-        ValidateActor = true,
-        ValidateAudience = true,
-        ValidateLifetime = true,
-        ValidateIssuerSigningKey = true,
-        ValidIssuer = builder.Configuration["JwtSettings:ValidIssuer"],
-        ValidAudience = builder.Configuration["JwtSettings:ValidAudience"],
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:Key"]))
-    };
-});
-builder.Services.AddAuthorization();*/
-//builder.Services.AddTransient<GlobalExceptionHandlingMiddleware>();
+
+//builder.Services.AddAuthorization();
+builder.Services.AddTransient<GlobalExceptionHandlingMiddleware>();
 
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddControllers();
@@ -87,7 +76,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//var emailSettings = new EmailSettings();
+//builder.Configuration.GetSection("EmailSettings").Bind(emailSettings);
+//builder.Services.AddMailService(builder.Configuration);
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
 var app = builder.Build();
+
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -106,7 +101,7 @@ app.UseHttpsRedirection();
 
 //app.UseAuthentication();
 app.UseAuthorization();
-//app.UseMiddleware<GlobalExceptionHandlingMiddleware>();
+app.UseMiddleware<GlobalExceptionHandlingMiddleware>();
 
 app.MapControllers();
 

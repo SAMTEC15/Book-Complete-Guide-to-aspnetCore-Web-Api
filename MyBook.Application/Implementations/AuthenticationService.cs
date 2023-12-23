@@ -29,7 +29,7 @@ namespace MyBook.Application.Implementations
         {
             _userManager = userManager;
             _signInManager = signInManager;
-            //_emailServices = new MailService(emailSettings);
+            _emailServices = new EmailService(emailSettings);
             _emailSettings = emailSettings.Value;
            // _logger = logger;
            // _tokenGenerator = tokenGenerator;
@@ -48,7 +48,7 @@ namespace MyBook.Application.Implementations
                     // Generate email confirmation token
                     var emailConfirmationToken = await _userManager.GenerateEmailConfirmationTokenAsync(user);
 
-                    var resetPasswordUrl = "https://localhost:7075/confirm-email?email=" + Uri.EscapeDataString(user.Email) + "&token=" + Uri.EscapeDataString(emailConfirmationToken);
+                    var resetPasswordUrl = "https://localhost:7141/confirm-email?email=" + Uri.EscapeDataString(user.Email) + "&token=" + Uri.EscapeDataString(emailConfirmationToken);
 
                     // Send email confirmation
                     var mailRequest = new MailRequest
@@ -56,8 +56,8 @@ namespace MyBook.Application.Implementations
                         ToEmail = user.Email,
                         Subject = "Confirm Your Email",
                         // You can customize the email body as needed
-                        Body = $"Thank you for registering! Please confirm your email address by clicking the link below:<br>" +
-                               $"<a href='{resetPasswordUrl}'>Confirm Email</a>"
+                       // Body = $"Thank you for registering! Please confirm your email address by clicking the link below:<br>" +
+                               //$"<a href='{resetPasswordUrl}'>Confirm Email</a>"
                     };
 
                     await _emailServices.SendEmailConfirmationAsync(mailRequest, emailConfirmationToken);
