@@ -1,0 +1,903 @@
+2023-12-24 01:47:06.176 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-24 01:47:07.046 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-24 01:47:07.049 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-24 01:47:07.055 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 01:47:07.058 +01:00 [INF] Hosting environment: Development
+2023-12-24 01:47:07.060 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-24 01:47:13.539 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-24 01:47:14.616 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-24 01:47:14.633 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 1102.5052ms
+2023-12-24 01:47:14.665 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-24 01:47:14.716 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 100.6090ms
+2023-12-24 01:47:14.830 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 164.7985ms
+2023-12-24 01:47:15.048 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-24 01:47:15.337 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-24 01:47:15.449 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 400.4827ms
+2023-12-24 01:47:45.706 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-24 01:47:46.616 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-24 01:47:46.620 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-24 01:47:46.627 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 01:47:46.630 +01:00 [INF] Hosting environment: Development
+2023-12-24 01:47:46.633 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-24 01:47:52.419 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-24 01:47:53.373 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-24 01:47:53.375 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-24 01:47:53.396 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 991.0015ms
+2023-12-24 01:47:53.409 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 33.8988ms
+2023-12-24 01:47:53.581 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 207.6278ms
+2023-12-24 01:47:53.767 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-24 01:47:54.189 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 421.8660ms
+2023-12-24 01:48:42.602 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-24 01:48:43.448 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-24 01:48:43.454 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-24 01:48:43.459 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 01:48:43.462 +01:00 [INF] Hosting environment: Development
+2023-12-24 01:48:43.464 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-24 01:48:51.531 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-24 01:48:52.527 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-24 01:48:52.527 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-24 01:48:52.552 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 1011.3609ms
+2023-12-24 01:48:52.586 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 58.1199ms
+2023-12-24 01:48:52.776 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 248.7907ms
+2023-12-24 01:48:52.979 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-24 01:48:53.449 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 470.5050ms
+2023-12-24 01:49:27.548 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 59
+2023-12-24 01:49:27.587 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 01:49:27.661 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyBook.Domain.APIResponse`1[System.String]]] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 01:49:29.591 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-24 01:49:30.075 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 01:49:30.081 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 01:49:30.181 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-24 01:49:32.811 +01:00 [INF] Executed DbCommand (174ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-12-24 01:49:33.215 +01:00 [INF] Executed DbCommand (16ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 01:49:33.675 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2023-12-24 01:49:33.762 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2023-12-24 01:49:33.823 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2023-12-24 01:49:34.277 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.APIResponse`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-12-24 01:49:34.320 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 6642.6134ms
+2023-12-24 01:49:34.326 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 01:49:34.349 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 59 - 200 - application/json;+charset=utf-8 6801.1337ms
+2023-12-24 01:50:39.317 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 59
+2023-12-24 01:50:39.345 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 01:50:39.348 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyBook.Domain.APIResponse`1[System.String]]] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 01:51:18.357 +01:00 [INF] Executed DbCommand (54ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-12-24 01:51:45.974 +01:00 [INF] Executed DbCommand (15ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 01:51:46.284 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2023-12-24 01:51:46.299 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2023-12-24 01:51:46.313 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2023-12-24 01:59:24.912 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-24 01:59:25.722 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-24 01:59:25.725 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-24 01:59:25.730 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 01:59:25.733 +01:00 [INF] Hosting environment: Development
+2023-12-24 01:59:25.735 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-24 01:59:32.169 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-24 01:59:33.296 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 1133.8113ms
+2023-12-24 01:59:33.376 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-24 01:59:33.376 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-24 01:59:33.429 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 46.5580ms
+2023-12-24 01:59:33.547 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 171.4787ms
+2023-12-24 01:59:33.754 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-24 01:59:34.124 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 370.1863ms
+2023-12-24 01:59:57.175 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 59
+2023-12-24 01:59:57.215 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 01:59:57.282 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyBook.Domain.APIResponse`1[System.String]]] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 02:00:08.432 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-24 02:00:08.940 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 02:00:08.946 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 02:00:09.034 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-24 02:00:11.490 +01:00 [INF] Executed DbCommand (165ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-12-24 02:00:11.918 +01:00 [INF] Executed DbCommand (16ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 02:00:12.320 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2023-12-24 02:00:12.399 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2023-12-24 02:00:12.467 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2023-12-24 02:00:12.794 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.APIResponse`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-12-24 02:00:12.838 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 15534.0858ms
+2023-12-24 02:00:12.842 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 02:00:12.873 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 59 - 200 - application/json;+charset=utf-8 15698.9863ms
+2023-12-24 02:09:54.862 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-24 02:09:55.507 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-24 02:09:55.513 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-24 02:09:55.527 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 02:09:55.531 +01:00 [INF] Hosting environment: Development
+2023-12-24 02:09:55.534 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-24 02:10:03.509 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-24 02:10:04.453 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 923.6686ms
+2023-12-24 02:10:04.457 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-24 02:10:04.460 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-24 02:10:04.501 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 42.3644ms
+2023-12-24 02:10:04.620 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 159.2591ms
+2023-12-24 02:10:04.804 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-24 02:10:05.234 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 429.9444ms
+2023-12-24 02:10:16.544 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 59
+2023-12-24 02:10:16.574 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 02:10:16.656 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyBook.Domain.APIResponse`1[System.String]]] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 02:10:28.414 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-24 02:10:28.852 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 02:10:28.858 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 02:10:28.938 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-24 02:10:31.282 +01:00 [INF] Executed DbCommand (150ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-12-24 02:10:31.643 +01:00 [INF] Executed DbCommand (12ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 02:10:32.010 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2023-12-24 02:10:32.098 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2023-12-24 02:10:32.148 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2023-12-24 02:10:32.489 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.APIResponse`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-12-24 02:10:32.527 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 15856.6548ms
+2023-12-24 02:10:32.534 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 02:10:32.562 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 59 - 200 - application/json;+charset=utf-8 16017.9496ms
+2023-12-24 02:11:24.648 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-24 02:11:25.265 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-24 02:11:25.270 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-24 02:11:25.274 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 02:11:25.278 +01:00 [INF] Hosting environment: Development
+2023-12-24 02:11:25.282 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-24 02:11:31.889 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-24 02:11:33.065 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-24 02:11:33.083 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 1205.1834ms
+2023-12-24 02:11:33.181 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-24 02:11:33.235 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 53.5276ms
+2023-12-24 02:11:33.346 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 280.7624ms
+2023-12-24 02:11:33.569 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-24 02:11:34.033 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 464.7117ms
+2023-12-24 02:11:47.579 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 59
+2023-12-24 02:11:47.610 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 02:11:47.684 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyBook.Domain.APIResponse`1[System.String]]] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 02:11:49.485 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-24 02:11:50.001 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 02:11:50.006 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 02:11:50.101 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-24 02:11:52.705 +01:00 [INF] Executed DbCommand (165ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-12-24 02:11:53.166 +01:00 [INF] Executed DbCommand (34ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 02:11:53.668 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2023-12-24 02:11:53.754 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2023-12-24 02:11:53.808 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2023-12-24 02:11:54.138 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.APIResponse`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-12-24 02:11:54.174 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 6474.7567ms
+2023-12-24 02:11:54.182 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 02:11:54.203 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 59 - 200 - application/json;+charset=utf-8 6623.9624ms
+2023-12-24 02:22:10.636 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-24 02:22:11.209 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-24 02:22:11.214 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-24 02:22:11.219 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 02:22:11.222 +01:00 [INF] Hosting environment: Development
+2023-12-24 02:22:11.225 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-24 02:22:15.000 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-24 02:22:16.644 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-24 02:22:16.657 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 1667.2279ms
+2023-12-24 02:22:16.666 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-24 02:22:16.738 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 72.2004ms
+2023-12-24 02:22:16.906 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 261.9326ms
+2023-12-24 02:22:17.302 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-24 02:22:17.856 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 553.7402ms
+2023-12-24 02:23:20.697 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/register application/json 85
+2023-12-24 02:23:20.731 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Register (MyBookAPI)'
+2023-12-24 02:23:20.790 +01:00 [INF] Route matched with {action = "Register", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MyBook.Domain.Dto.RegisterDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 02:23:26.744 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-24 02:23:27.107 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 02:23:27.113 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 02:23:27.171 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-24 02:23:29.391 +01:00 [INF] Executed DbCommand (152ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 02:23:29.946 +01:00 [INF] Executed DbCommand (12ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (DbType = DateTimeOffset), @p12='?' (Size = 256), @p13='?' (Size = 256), @p14='?' (Size = 4000), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 4000), @p18='?' (DbType = Boolean), @p19='?' (DbType = DateTime2), @p20='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [CreatedAt], [Email], [EmailConfirmed], [FirstName], [Gender], [ImageUrl], [LastName], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UpdatedAt], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20);
+2023-12-24 02:32:35.004 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-24 02:32:35.612 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-24 02:32:35.617 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-24 02:32:35.624 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 02:32:35.628 +01:00 [INF] Hosting environment: Development
+2023-12-24 02:32:35.631 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-24 02:32:38.666 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-24 02:32:39.263 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 600.5295ms
+2023-12-24 02:32:39.294 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-24 02:32:39.294 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-24 02:32:39.317 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 22.9232ms
+2023-12-24 02:32:39.424 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 129.5703ms
+2023-12-24 02:32:39.802 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-24 02:32:40.191 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 388.4392ms
+2023-12-24 02:45:08.864 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-24 02:45:09.475 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-24 02:45:09.481 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-24 02:45:09.489 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 02:45:09.493 +01:00 [INF] Hosting environment: Development
+2023-12-24 02:45:09.498 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-24 02:45:12.811 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-24 02:45:13.764 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-24 02:45:13.785 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 981.0449ms
+2023-12-24 02:45:13.794 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-24 02:45:13.816 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 21.8347ms
+2023-12-24 02:45:13.888 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 124.4174ms
+2023-12-24 02:45:14.074 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-24 02:45:14.444 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 370.0576ms
+2023-12-24 02:45:22.102 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Author/get-all-books - -
+2023-12-24 02:45:22.127 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthorController.GetAllAuthor (MyBookAPI)'
+2023-12-24 02:45:22.168 +01:00 [INF] Route matched with {action = "GetAllAuthor", controller = "Author"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAuthor() on controller MyBookAPI.Controllers.AuthorController (MyBookAPI).
+2023-12-24 02:45:23.702 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-24 02:45:24.103 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 02:45:24.107 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 02:45:24.175 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-24 02:45:26.031 +01:00 [INF] Executed DbCommand (113ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[FirstName], [a].[LastName]
+FROM [Authors] AS [a]
+2023-12-24 02:45:26.283 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyBook.Domain.Models.Author, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-24 02:45:26.307 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthorController.GetAllAuthor (MyBookAPI) in 4124.662ms
+2023-12-24 02:45:26.313 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthorController.GetAllAuthor (MyBookAPI)'
+2023-12-24 02:45:26.332 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Author/get-all-books - - - 200 - application/json;+charset=utf-8 4230.7661ms
+2023-12-24 02:45:34.698 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Books/get/all/books - -
+2023-12-24 02:45:34.707 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.BooksController.GetAllBooks (MyBookAPI)'
+2023-12-24 02:45:34.718 +01:00 [INF] Route matched with {action = "GetAllBooks", controller = "Books"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[MyBook.Domain.Models.Book]] GetAllBooks() on controller MyBookAPI.Controllers.BooksController (MyBookAPI).
+2023-12-24 02:45:34.820 +01:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[CoverUrl], [b].[DateAdded], [b].[DateRead], [b].[Description], [b].[Genre], [b].[IsRead], [b].[PublisherId], [b].[PublisherId1], [b].[PublisherId2], [b].[Rate], [b].[Title]
+FROM [Books] AS [b]
+2023-12-24 02:45:34.949 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyBook.Domain.Models.Book, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-24 02:45:35.007 +01:00 [INF] Executed action MyBookAPI.Controllers.BooksController.GetAllBooks (MyBookAPI) in 282.8432ms
+2023-12-24 02:45:35.012 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.BooksController.GetAllBooks (MyBookAPI)'
+2023-12-24 02:45:35.016 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Books/get/all/books - - - 200 - application/json;+charset=utf-8 317.8928ms
+2023-12-24 02:45:42.391 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Publisher/get-all-publisher - -
+2023-12-24 02:45:42.397 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.PublisherController.GetAllPublisher (MyBookAPI)'
+2023-12-24 02:45:42.409 +01:00 [INF] Route matched with {action = "GetAllPublisher", controller = "Publisher"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllPublisher() on controller MyBookAPI.Controllers.PublisherController (MyBookAPI).
+2023-12-24 02:45:42.598 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Address], [p].[CEO], [p].[ContactInformation], [p].[Country], [p].[FoundingYear], [p].[Name], [p].[Revenue], [p].[Website]
+FROM [Publishers] AS [p]
+2023-12-24 02:45:42.645 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyBook.Domain.Models.Publisher, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-24 02:45:42.664 +01:00 [INF] Executed action MyBookAPI.Controllers.PublisherController.GetAllPublisher (MyBookAPI) in 249.8006ms
+2023-12-24 02:45:42.669 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.PublisherController.GetAllPublisher (MyBookAPI)'
+2023-12-24 02:45:42.672 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Publisher/get-all-publisher - - - 200 - application/json;+charset=utf-8 280.8707ms
+2023-12-24 13:06:56.280 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-24 13:06:56.867 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-24 13:06:56.872 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-24 13:06:56.877 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 13:06:56.882 +01:00 [INF] Hosting environment: Development
+2023-12-24 13:06:56.887 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-24 13:07:00.461 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-24 13:07:01.256 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-24 13:07:01.259 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-24 13:07:01.265 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 810.2929ms
+2023-12-24 13:07:01.293 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 36.9541ms
+2023-12-24 13:07:01.387 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 127.5632ms
+2023-12-24 13:07:01.575 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-24 13:07:01.922 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 347.0983ms
+2023-12-24 13:08:25.838 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 57
+2023-12-24 13:08:25.868 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:08:25.931 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyBook.Domain.APIResponse`1[System.String]]] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 13:08:27.718 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-24 13:08:28.112 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 13:08:28.118 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 13:08:28.190 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-24 13:08:30.448 +01:00 [INF] Executed DbCommand (139ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-12-24 13:08:30.804 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 13:08:31.123 +01:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-12-24 13:08:31.152 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 5198.6482ms
+2023-12-24 13:08:31.159 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:08:31.184 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 57 - 400 - application/problem+json;+charset=utf-8 5346.2227ms
+2023-12-24 13:08:56.614 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 58
+2023-12-24 13:08:56.629 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:08:56.633 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyBook.Domain.APIResponse`1[System.String]]] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 13:08:56.765 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-12-24 13:08:56.780 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 13:08:57.025 +01:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-12-24 13:08:57.030 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 388.2566ms
+2023-12-24 13:08:57.047 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:08:57.051 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 58 - 400 - application/problem+json;+charset=utf-8 437.2424ms
+2023-12-24 13:09:51.046 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 58
+2023-12-24 13:09:51.059 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:09:51.062 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyBook.Domain.APIResponse`1[System.String]]] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 13:10:13.176 +01:00 [INF] Executed DbCommand (44ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-12-24 13:10:44.000 +01:00 [INF] Executed DbCommand (59ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 13:11:20.901 +01:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-12-24 13:11:20.913 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 89845.2243ms
+2023-12-24 13:11:20.929 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:11:20.934 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 58 - 400 - application/problem+json;+charset=utf-8 89888.4723ms
+2023-12-24 13:12:07.272 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/register application/json 88
+2023-12-24 13:12:07.297 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Register (MyBookAPI)'
+2023-12-24 13:12:07.311 +01:00 [INF] Route matched with {action = "Register", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MyBook.Domain.Dto.RegisterDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 13:12:16.791 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 13:12:16.825 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'MyBook.Domain.APIResponse`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-12-24 13:12:16.845 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Register (MyBookAPI) in 9526.9084ms
+2023-12-24 13:12:16.849 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Register (MyBookAPI)'
+2023-12-24 13:12:16.852 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/register application/json 88 - 400 - application/json;+charset=utf-8 9580.4019ms
+2023-12-24 13:12:39.323 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/register application/json 86
+2023-12-24 13:12:39.327 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Register (MyBookAPI)'
+2023-12-24 13:12:39.329 +01:00 [INF] Route matched with {action = "Register", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MyBook.Domain.Dto.RegisterDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 13:12:42.794 +01:00 [INF] Executed DbCommand (10ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 13:12:43.056 +01:00 [INF] Executed DbCommand (18ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (DbType = DateTimeOffset), @p12='?' (Size = 256), @p13='?' (Size = 256), @p14='?' (Size = 4000), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 4000), @p18='?' (DbType = Boolean), @p19='?' (DbType = DateTime2), @p20='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [CreatedAt], [Email], [EmailConfirmed], [FirstName], [Gender], [ImageUrl], [LastName], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UpdatedAt], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20);
+2023-12-24 13:12:43.719 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'MyBook.Domain.APIResponse`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-12-24 13:12:43.724 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Register (MyBookAPI) in 4389.1675ms
+2023-12-24 13:12:43.730 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Register (MyBookAPI)'
+2023-12-24 13:12:43.733 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/register application/json 86 - 400 - application/json;+charset=utf-8 4410.1602ms
+2023-12-24 13:12:59.690 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/register application/json 87
+2023-12-24 13:12:59.693 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Register (MyBookAPI)'
+2023-12-24 13:12:59.697 +01:00 [INF] Route matched with {action = "Register", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MyBook.Domain.Dto.RegisterDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 13:13:12.941 +01:00 [INF] Executed DbCommand (10ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 13:13:13.013 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (DbType = DateTimeOffset), @p12='?' (Size = 256), @p13='?' (Size = 256), @p14='?' (Size = 4000), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 4000), @p18='?' (DbType = Boolean), @p19='?' (DbType = DateTime2), @p20='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [CreatedAt], [Email], [EmailConfirmed], [FirstName], [Gender], [ImageUrl], [LastName], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UpdatedAt], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20);
+2023-12-24 13:24:30.635 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-24 13:24:31.165 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-24 13:24:31.169 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-24 13:24:31.174 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 13:24:31.177 +01:00 [INF] Hosting environment: Development
+2023-12-24 13:24:31.181 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-24 13:24:31.656 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-24 13:24:32.377 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-24 13:24:32.380 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-24 13:24:32.389 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 738.8656ms
+2023-12-24 13:24:32.400 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 24.2591ms
+2023-12-24 13:24:32.501 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 120.5180ms
+2023-12-24 13:24:32.691 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-24 13:24:33.051 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 359.6682ms
+2023-12-24 13:25:02.184 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Author/get-all-books - -
+2023-12-24 13:25:02.218 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthorController.GetAllAuthor (MyBookAPI)'
+2023-12-24 13:25:02.260 +01:00 [INF] Route matched with {action = "GetAllAuthor", controller = "Author"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAuthor() on controller MyBookAPI.Controllers.AuthorController (MyBookAPI).
+2023-12-24 13:25:04.166 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-24 13:25:04.774 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 13:25:04.780 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 13:25:04.875 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-24 13:25:06.956 +01:00 [INF] Executed DbCommand (107ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[FirstName], [a].[LastName]
+FROM [Authors] AS [a]
+2023-12-24 13:25:07.184 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyBook.Domain.Models.Author, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-24 13:25:07.219 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthorController.GetAllAuthor (MyBookAPI) in 4941.5687ms
+2023-12-24 13:25:07.227 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthorController.GetAllAuthor (MyBookAPI)'
+2023-12-24 13:25:07.255 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Author/get-all-books - - - 200 - application/json;+charset=utf-8 5071.6786ms
+2023-12-24 13:25:21.726 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 57
+2023-12-24 13:25:21.735 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:25:21.764 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyBook.Domain.APIResponse`1[System.String]]] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 13:25:25.790 +01:00 [INF] Executed DbCommand (53ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-12-24 13:25:25.932 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 13:25:26.272 +01:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-12-24 13:25:26.279 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 4508.4069ms
+2023-12-24 13:25:26.283 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:25:26.287 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 57 - 400 - application/problem+json;+charset=utf-8 4561.6406ms
+2023-12-24 13:25:41.041 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 57
+2023-12-24 13:25:41.046 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:25:41.050 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyBook.Domain.APIResponse`1[System.String]]] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 13:26:01.234 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-12-24 13:26:24.301 +01:00 [INF] Executed DbCommand (37ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 13:35:23.179 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-24 13:35:23.659 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-24 13:35:23.665 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-24 13:35:23.672 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 13:35:23.676 +01:00 [INF] Hosting environment: Development
+2023-12-24 13:35:23.680 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-24 13:35:24.268 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-24 13:35:24.988 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-24 13:35:24.996 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-24 13:35:25.006 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 746.6942ms
+2023-12-24 13:35:25.007 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 16.1568ms
+2023-12-24 13:35:25.231 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 234.7125ms
+2023-12-24 13:35:25.397 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-24 13:35:25.756 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 358.9510ms
+2023-12-24 13:36:06.885 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 57
+2023-12-24 13:36:06.914 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:36:06.972 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyBook.Domain.APIResponse`1[System.String]]] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 13:36:13.215 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-24 13:36:13.690 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 13:36:13.694 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 13:36:13.760 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-24 13:36:15.787 +01:00 [INF] Executed DbCommand (110ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-12-24 13:36:16.130 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 13:36:16.396 +01:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-12-24 13:36:16.415 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 9430.056ms
+2023-12-24 13:36:16.420 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:36:16.441 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 57 - 400 - application/problem+json;+charset=utf-8 9555.6916ms
+2023-12-24 13:36:27.673 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 58
+2023-12-24 13:36:27.684 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:36:27.689 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyBook.Domain.APIResponse`1[System.String]]] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 13:36:32.732 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-12-24 13:36:32.749 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 13:36:32.946 +01:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-12-24 13:36:32.951 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 5253.3324ms
+2023-12-24 13:36:32.955 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:36:32.960 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 58 - 400 - application/problem+json;+charset=utf-8 5287.0629ms
+2023-12-24 13:39:14.582 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-24 13:39:15.074 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-24 13:39:15.077 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-24 13:39:15.081 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 13:39:15.084 +01:00 [INF] Hosting environment: Development
+2023-12-24 13:39:15.087 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-24 13:39:18.922 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-24 13:39:20.451 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-24 13:39:20.451 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-24 13:39:20.485 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 31.1114ms
+2023-12-24 13:39:20.485 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 1548.5157ms
+2023-12-24 13:39:20.809 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 357.6642ms
+2023-12-24 13:39:20.941 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-24 13:39:21.448 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 506.9920ms
+2023-12-24 13:39:41.069 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 57
+2023-12-24 13:39:41.100 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:39:41.156 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyBook.Domain.APIResponse`1[System.String]]] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 13:39:42.348 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-24 13:39:42.615 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 13:39:42.625 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 13:39:42.692 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-24 13:39:44.439 +01:00 [INF] Executed DbCommand (125ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-12-24 13:39:44.736 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 13:39:44.957 +01:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-12-24 13:39:44.979 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 3808.2018ms
+2023-12-24 13:39:44.986 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:39:45.009 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 57 - 400 - application/problem+json;+charset=utf-8 3939.9705ms
+2023-12-24 13:44:14.460 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-24 13:44:15.068 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-24 13:44:15.072 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-24 13:44:15.078 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 13:44:15.082 +01:00 [INF] Hosting environment: Development
+2023-12-24 13:44:15.085 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-24 13:44:19.215 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-24 13:44:20.143 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 932.6662ms
+2023-12-24 13:44:20.178 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-24 13:44:20.178 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-24 13:44:20.228 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 50.1569ms
+2023-12-24 13:44:20.322 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 144.0843ms
+2023-12-24 13:44:20.500 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-24 13:44:20.888 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 388.2574ms
+2023-12-24 13:45:21.948 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 57
+2023-12-24 13:45:21.987 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:45:22.059 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyBook.Domain.APIResponse`1[System.String]]] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 13:45:23.598 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-24 13:45:23.975 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 13:45:23.982 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 13:45:24.078 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-24 13:45:26.238 +01:00 [INF] Executed DbCommand (126ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-12-24 13:45:26.668 +01:00 [INF] Executed DbCommand (12ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 13:45:26.971 +01:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-12-24 13:45:27.000 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 4923.7711ms
+2023-12-24 13:45:27.008 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:45:27.034 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 57 - 400 - application/problem+json;+charset=utf-8 5085.5001ms
+2023-12-24 13:45:36.018 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 58
+2023-12-24 13:45:36.028 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:45:36.031 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyBook.Domain.APIResponse`1[System.String]]] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 13:45:36.175 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-12-24 13:45:36.192 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 13:45:36.416 +01:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-12-24 13:45:36.422 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 384.231ms
+2023-12-24 13:45:36.426 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:45:36.431 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 58 - 400 - application/problem+json;+charset=utf-8 412.3397ms
+2023-12-24 13:45:51.585 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 56
+2023-12-24 13:45:51.590 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:45:51.594 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyBook.Domain.APIResponse`1[System.String]]] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 13:45:51.667 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-12-24 13:45:51.676 +01:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-12-24 13:45:51.680 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 80.1948ms
+2023-12-24 13:45:51.684 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:45:51.688 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 56 - 400 - application/problem+json;+charset=utf-8 103.0536ms
+2023-12-24 13:45:59.900 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 55
+2023-12-24 13:45:59.904 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:45:59.907 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyBook.Domain.APIResponse`1[System.String]]] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 13:45:59.920 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-12-24 13:45:59.934 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 13:46:00.154 +01:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-12-24 13:46:00.158 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 245.1697ms
+2023-12-24 13:46:00.164 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:46:00.168 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 55 - 400 - application/problem+json;+charset=utf-8 267.3583ms
+2023-12-24 13:46:15.094 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 54
+2023-12-24 13:46:15.097 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:46:15.101 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyBook.Domain.APIResponse`1[System.String]]] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 13:46:15.114 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-12-24 13:46:15.124 +01:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-12-24 13:46:15.127 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 20.7317ms
+2023-12-24 13:46:15.132 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:46:15.136 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 54 - 400 - application/problem+json;+charset=utf-8 42.4881ms
+2023-12-24 13:46:25.227 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/register application/json 88
+2023-12-24 13:46:25.231 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Register (MyBookAPI)'
+2023-12-24 13:46:25.245 +01:00 [INF] Route matched with {action = "Register", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MyBook.Domain.Dto.RegisterDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 13:46:50.599 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'MyBook.Domain.APIResponse`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-12-24 13:46:50.615 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Register (MyBookAPI) in 25363.4349ms
+2023-12-24 13:46:50.620 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Register (MyBookAPI)'
+2023-12-24 13:46:50.624 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/register application/json 88 - 400 - application/json;+charset=utf-8 25395.7959ms
+2023-12-24 13:47:19.298 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/register application/json 88
+2023-12-24 13:47:19.310 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Register (MyBookAPI)'
+2023-12-24 13:47:19.314 +01:00 [INF] Route matched with {action = "Register", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MyBook.Domain.Dto.RegisterDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 13:47:29.173 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 13:47:52.361 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'MyBook.Domain.APIResponse`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-12-24 13:47:52.373 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Register (MyBookAPI) in 33053.7642ms
+2023-12-24 13:47:52.385 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Register (MyBookAPI)'
+2023-12-24 13:47:52.389 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/register application/json 88 - 400 - application/json;+charset=utf-8 33090.3343ms
+2023-12-24 13:49:04.679 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-24 13:49:05.241 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-24 13:49:05.245 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-24 13:49:05.250 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 13:49:05.253 +01:00 [INF] Hosting environment: Development
+2023-12-24 13:49:05.256 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-24 13:49:08.962 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-24 13:49:09.710 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-24 13:49:09.710 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-24 13:49:09.723 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 766.9296ms
+2023-12-24 13:49:09.741 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 31.4138ms
+2023-12-24 13:49:09.879 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 169.2776ms
+2023-12-24 13:49:10.071 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-24 13:49:10.443 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 371.4045ms
+2023-12-24 13:49:32.667 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/register application/json 85
+2023-12-24 13:49:32.693 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Register (MyBookAPI)'
+2023-12-24 13:49:32.759 +01:00 [INF] Route matched with {action = "Register", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MyBook.Domain.Dto.RegisterDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 13:49:34.510 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-24 13:49:34.972 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 13:49:34.978 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 13:49:35.073 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-24 13:49:37.135 +01:00 [INF] Executed DbCommand (114ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 13:49:37.667 +01:00 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (DbType = DateTimeOffset), @p12='?' (Size = 256), @p13='?' (Size = 256), @p14='?' (Size = 4000), @p15='?' (Size = 4000), @p16='?' (DbType = Boolean), @p17='?' (Size = 4000), @p18='?' (DbType = Boolean), @p19='?' (DbType = DateTime2), @p20='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [CreatedAt], [Email], [EmailConfirmed], [FirstName], [Gender], [ImageUrl], [LastName], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UpdatedAt], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20);
+2023-12-24 13:49:38.403 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'MyBook.Domain.APIResponse`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-12-24 13:49:38.434 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Register (MyBookAPI) in 5658.5939ms
+2023-12-24 13:49:38.440 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Register (MyBookAPI)'
+2023-12-24 13:49:38.468 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/register application/json 85 - 400 - application/json;+charset=utf-8 5801.2018ms
+2023-12-24 13:49:59.765 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/register application/json 85
+2023-12-24 13:49:59.773 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Register (MyBookAPI)'
+2023-12-24 13:49:59.778 +01:00 [INF] Route matched with {action = "Register", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MyBook.Domain.Dto.RegisterDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 13:50:05.933 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 13:50:12.953 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'MyBook.Domain.APIResponse`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-12-24 13:50:12.968 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Register (MyBookAPI) in 13185.222ms
+2023-12-24 13:50:12.972 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Register (MyBookAPI)'
+2023-12-24 13:50:12.976 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/register application/json 85 - 400 - application/json;+charset=utf-8 13211.2332ms
+2023-12-24 13:50:37.194 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 54
+2023-12-24 13:50:37.198 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:50:37.213 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyBook.Domain.APIResponse`1[System.String]]] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 13:50:37.310 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-12-24 13:50:37.328 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 13:50:37.697 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2023-12-24 13:50:37.776 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2023-12-24 13:50:37.825 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2023-12-24 13:50:38.207 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.APIResponse`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-12-24 13:50:38.213 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 993.5544ms
+2023-12-24 13:50:38.221 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 13:50:38.235 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 54 - 200 - application/json;+charset=utf-8 1040.7132ms
+2023-12-24 14:36:13.349 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-24 14:36:13.644 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-24 14:36:13.647 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-24 14:36:13.649 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 14:36:13.649 +01:00 [INF] Hosting environment: Development
+2023-12-24 14:36:13.650 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-24 14:36:13.975 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-24 14:36:14.314 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 342.7740ms
+2023-12-24 14:36:14.315 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-24 14:36:14.315 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-24 14:36:14.327 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 12.1050ms
+2023-12-24 14:36:14.384 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 68.9493ms
+2023-12-24 14:36:14.482 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-24 14:36:14.637 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 155.1991ms
+2023-12-24 14:36:24.317 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Author/get-all-books - -
+2023-12-24 14:36:24.398 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthorController.GetAllAuthor (MyBookAPI)'
+2023-12-24 14:36:24.419 +01:00 [INF] Route matched with {action = "GetAllAuthor", controller = "Author"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAuthor() on controller MyBookAPI.Controllers.AuthorController (MyBookAPI).
+2023-12-24 14:36:25.129 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-24 14:36:25.377 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 14:36:25.379 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 14:36:25.426 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-24 14:36:26.464 +01:00 [INF] Executed DbCommand (53ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[FirstName], [a].[LastName]
+FROM [Authors] AS [a]
+2023-12-24 14:36:26.599 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyBook.Domain.Models.Author, MyBook.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-24 14:36:26.614 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthorController.GetAllAuthor (MyBookAPI) in 2187.3338ms
+2023-12-24 14:36:26.616 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthorController.GetAllAuthor (MyBookAPI)'
+2023-12-24 14:36:26.628 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Author/get-all-books - - - 200 - application/json;+charset=utf-8 2311.6819ms
+2023-12-24 14:37:56.107 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-24 14:37:56.500 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-24 14:37:56.502 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-24 14:37:56.504 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 14:37:56.505 +01:00 [INF] Hosting environment: Development
+2023-12-24 14:37:56.506 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-24 14:37:59.513 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-24 14:37:59.783 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 273.0920ms
+2023-12-24 14:37:59.789 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-24 14:37:59.789 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-24 14:37:59.797 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 8.2072ms
+2023-12-24 14:37:59.860 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 71.5363ms
+2023-12-24 14:37:59.961 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-24 14:38:00.129 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 167.9652ms
+2023-12-24 14:38:08.570 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Author/get-all-books - -
+2023-12-24 14:38:08.650 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-24 14:38:08.656 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-24 14:38:08.658 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Author/get-all-books - - - 401 0 - 87.4780ms
+2023-12-24 14:38:38.910 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 54
+2023-12-24 14:38:38.921 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 14:38:38.950 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyBook.Domain.APIResponse`1[System.String]]] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 14:38:39.915 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-24 14:38:40.199 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 14:38:40.201 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 14:38:40.250 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-24 14:38:41.547 +01:00 [INF] Executed DbCommand (72ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-12-24 14:38:41.758 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 14:38:41.945 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2023-12-24 14:38:41.995 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2023-12-24 14:38:42.025 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2023-12-24 14:38:42.254 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.APIResponse`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-12-24 14:38:42.276 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 3318.6259ms
+2023-12-24 14:38:42.279 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 14:38:42.297 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 54 - 200 - application/json;+charset=utf-8 3386.9753ms
+2023-12-24 14:39:09.690 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Author/get-all-books - -
+2023-12-24 14:39:09.749 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2023-12-24 14:39:09.772 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2023-12-24 14:39:09.777 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-24 14:39:09.780 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-24 14:39:09.782 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Author/get-all-books - - - 401 0 - 91.7110ms
+2023-12-24 14:39:38.853 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Author/get-all-books - -
+2023-12-24 14:39:38.888 +01:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+2023-12-24 14:39:38.890 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-24 14:39:38.892 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-24 14:39:38.894 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Author/get-all-books - - - 401 0 - 40.6974ms
+2023-12-24 14:40:12.131 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Author/get-all-books - -
+2023-12-24 14:40:12.137 +01:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+2023-12-24 14:40:12.138 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-24 14:40:12.140 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-24 14:40:12.142 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Author/get-all-books - - - 401 0 - 11.5345ms
+2023-12-24 14:40:16.112 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Author/get-all-books - -
+2023-12-24 14:40:16.113 +01:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+2023-12-24 14:40:16.115 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-24 14:40:16.117 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-24 14:40:16.118 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Author/get-all-books - - - 401 0 - 6.2766ms
+2023-12-24 14:40:23.032 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Books/get/all/books - -
+2023-12-24 14:40:23.034 +01:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+2023-12-24 14:40:23.035 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-24 14:40:23.037 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-24 14:40:23.039 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Books/get/all/books - - - 401 0 - 6.6916ms
+2023-12-24 14:41:47.776 +01:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-24 14:41:48.078 +01:00 [INF] Now listening on: https://localhost:7141
+2023-12-24 14:41:48.080 +01:00 [INF] Now listening on: http://localhost:5223
+2023-12-24 14:41:48.082 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-24 14:41:48.083 +01:00 [INF] Hosting environment: Development
+2023-12-24 14:41:48.084 +01:00 [INF] Content root path: C:\Users\user1\Home\MyBook\MyBookAPI
+2023-12-24 14:41:48.483 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/index.html - -
+2023-12-24 14:41:48.811 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/index.html - - - 200 - text/html;charset=utf-8 331.9240ms
+2023-12-24 14:41:48.816 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_vs/browserLink - -
+2023-12-24 14:41:48.816 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - -
+2023-12-24 14:41:48.827 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 9.9905ms
+2023-12-24 14:41:48.888 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 71.4068ms
+2023-12-24 14:41:48.996 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - -
+2023-12-24 14:41:49.187 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 190.8153ms
+2023-12-24 14:42:15.498 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 54
+2023-12-24 14:42:15.581 +01:00 [INF] Executing endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 14:42:15.606 +01:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MyBook.Domain.APIResponse`1[System.String]]] Login(MyBook.Domain.Dto.LoginDto) on controller MyBookAPI.Controllers.AuthenticationController (MyBookAPI).
+2023-12-24 14:42:16.460 +01:00 [WRN] There are multiple relationships between 'Book' and 'Publisher' without configured foreign key properties. This will cause Entity Framework to create shadow properties on 'Book' with names dependent on the discovery order. Consider configuring the foreign key properties using the [ForeignKey] attribute or in 'OnModelCreating'.
+2023-12-24 14:42:16.722 +01:00 [WRN] The foreign key property 'Book.PublisherId1' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 14:42:16.725 +01:00 [WRN] The foreign key property 'Book.PublisherId2' was created in shadow state because a conflicting property with the simple name 'PublisherId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2023-12-24 14:42:16.767 +01:00 [WRN] No store type was specified for the decimal property 'Revenue' on entity type 'Publisher'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-12-24 14:42:17.829 +01:00 [INF] Executed DbCommand (70ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-12-24 14:42:18.018 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-12-24 14:42:18.197 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2023-12-24 14:42:18.233 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2023-12-24 14:42:18.257 +01:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2023-12-24 14:42:18.408 +01:00 [INF] Executing OkObjectResult, writing value of type 'MyBook.Domain.APIResponse`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-12-24 14:42:18.424 +01:00 [INF] Executed action MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI) in 2811.2919ms
+2023-12-24 14:42:18.427 +01:00 [INF] Executed endpoint 'MyBookAPI.Controllers.AuthenticationController.Login (MyBookAPI)'
+2023-12-24 14:42:18.441 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7141/api/Authentication/login application/json 54 - 200 - application/json;+charset=utf-8 2943.8630ms
+2023-12-24 14:43:03.393 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7141/api/Publisher/get-all-publisher - -
+2023-12-24 14:43:03.410 +01:00 [INF] Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+2023-12-24 14:43:03.419 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-12-24 14:43:03.426 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-12-24 14:43:03.428 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7141/api/Publisher/get-all-publisher - - - 401 0 - 34.8466ms

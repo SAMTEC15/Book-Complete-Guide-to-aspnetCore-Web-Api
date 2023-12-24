@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MyBook.Application.Implementations;
 using MyBook.Application.Interfaces;
@@ -9,6 +10,7 @@ namespace MyBookAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class BooksController : ControllerBase
     {
         private readonly IBookService _bookService;

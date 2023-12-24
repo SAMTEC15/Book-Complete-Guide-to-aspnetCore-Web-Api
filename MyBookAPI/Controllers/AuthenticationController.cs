@@ -57,5 +57,42 @@ namespace MyBookAPI.Controllers
 
             return BadRequest(responses);
         }
+
+        [HttpPost("login")]
+        public async Task<ActionResult<APIResponse<string>>> Login([FromBody] LoginDto model)
+        {
+            if (!ModelState.IsValid)
+            {
+                var responses = new APIResponse<string>
+                {
+                    StatusCode = HttpStatusCode.BadRequest,
+                    IsSuccess = false,
+                    ErrorMessages = new List<string>(),
+                    Result = "invalid input."
+                    // Example result of type string
+                };
+                return responses;                
+            }
+
+            var response = await _authenticationService.LoginAsync(model.Email, model.Password);
+
+            if (response.IsSuccess)
+            {
+                var responses = new APIResponse<string>
+                {
+                    StatusCode = HttpStatusCode.OK,
+                    IsSuccess = true,
+                    ErrorMessages = new List<string>(),
+                    Result =  "Login Success.",
+                    Data = response.Data
+                    // Example result of type string
+                };
+                return Ok(responses);
+            }
+
+            return BadRequest();
+        }
+
+
     }
 }

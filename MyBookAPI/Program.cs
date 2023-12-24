@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using MyBook.Application.Implementations;
 using MyBook.Application.Interfaces;
 using MyBook.Common.GlobalException;
@@ -30,7 +31,7 @@ builder.Logging.AddSerilog(logger);
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConn")));
 
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
-
+builder.Services.AddScoped<RoleManager<IdentityRole>>();
 //builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
 
 builder.Services.AddScoped<IBooksRepository, BooksRepository>();
@@ -44,6 +45,18 @@ builder.Services.AddScoped<IImageService, ImageService>();
 builder.Services.AddScoped<IAuthenticationRepository, AuthenticationRepository>();
 builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddScoped<ITokenService, TokenService>();
+
+//conf identity
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    options.Password.RequiredLength = 6;
+    options.Password.RequireDigit = false;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequireNonAlphanumeric = false;
+    options.SignIn.RequireConfirmedEmail = false;
+});
 
 builder.Services.AddAuthentication(options =>
 {
@@ -74,7 +87,33 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options=>
+{
+    options.SwaggerDoc("v1", new OpenApiInfo { Title = "MyBook", Version = "V1" });
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        In = ParameterLocation.Header,
+        Description = "Please enter your token",
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        BearerFormat = "JWT",
+        Scheme = "Bearer"
+    });
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+        new OpenApiSecurityScheme
+        {
+            Reference = new OpenApiReference
+            {
+                Type = ReferenceType.SecurityScheme,
+                Id = "Bearer"
+            }
+        },
+        new string[]{}
+        }
+    });
+});
 
 //var emailSettings = new EmailSettings();
 //builder.Configuration.GetSection("EmailSettings").Bind(emailSettings);
@@ -99,7 +138,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-//app.UseAuthentication();
+app.UseAuthentication();
 app.UseAuthorization();
 app.UseMiddleware<GlobalExceptionHandlingMiddleware>();
 

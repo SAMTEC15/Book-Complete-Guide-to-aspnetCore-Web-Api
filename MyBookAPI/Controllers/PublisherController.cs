@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using MyBook.Application.Interfaces;
 using MyBook.Domain.Dto;
 
@@ -6,6 +7,7 @@ namespace MyBookAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class PublisherController : ControllerBase
     {
         private readonly IPublisherService _publisherService;

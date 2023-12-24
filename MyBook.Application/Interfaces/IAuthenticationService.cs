@@ -11,5 +11,6 @@ namespace MyBook.Application.Interfaces
     public interface IAuthenticationService
     {
         Task<APIResponse<string>> RegisterAsync(ApplicationUser user, string password);
+        Task<APIResponse<string>> LoginAsync(string email, string password);
     }
 }

@@ -1,16 +1,9 @@
-﻿using MailKit.Security;
+﻿using MailKit.Net.Smtp;
+using MailKit.Security;
 using Microsoft.Extensions.Options;
 using MimeKit;
-using MyBook.Domain.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MailKit.Net.Smtp;
-using MailKit.Security;
-using MimeKit;
 using MyBook.Application.Interfaces;
+using MyBook.Domain.Models;
 
 namespace MyBook.Application.Implementations
 {
@@ -93,7 +86,7 @@ namespace MyBook.Application.Implementations
 
             //// You can customize the email body as needed
             //builder.HtmlBody += $"<p>Thank you for registering! Please confirm your email address by clicking the link below:</p>" +
-            //                   $"<p><a href='{emailSettings.AppBaseUri}/confirm-email?email={Uri.EscapeDataString(mailRequest.ToEmail)}&token={Uri.EscapeDataString(emailConfirmationToken)}'>Confirm Email</a></p>";
+              //              $"<p><a href='{emailSettings.AppBaseUri}/confirm-email?email={Uri.EscapeDataString(mailRequest.ToEmail)}&token={Uri.EscapeDataString(emailConfirmationToken)}'>Confirm Email</a></p>";
 
             message.Body = builder.ToMessageBody();
 

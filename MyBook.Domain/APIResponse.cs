@@ -19,5 +19,7 @@ namespace MyBook.Domain
         public List<string> ErrorMessages { get; set; }
         public object Result { get; set; }
 
+        public string Data { get; set; }
+
     }
 }
